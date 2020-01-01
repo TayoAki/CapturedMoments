@@ -1,0 +1,99 @@
+.sidebar {
+  text-align: center;
+  padding: 32px 16px;
+  padding: 2rem 1rem;
+  color: rgba(255, 255, 255, .5);
+  background-color: #202020;
+}
+
+.sidebar a {
+  color: #fff;
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+.sidebar a:hover, .sidebar a:focus, .sidebar a:hover h1, .sidebar a:focus h1 {
+  color: #2a66ff;
+  text-decoration: none;
+}
+
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+}
+
+.sidebar-about h1 {
+  color: #fff;
+  margin: 0 0 .35em 0;
+  font-family: "Rock Salt", cursive;
+  font-size: 52px;
+  font-size: 3.25rem;
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sidebar-about .lead {
+  font-size: .8em;
+}
+
+.sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+}
+
+.sidebar-nav-item {
+  display: block;
+}
+
+a.sidebar-nav-item:hover, a.sidebar-nav-item:focus {
+  color: #2a66ff;
+}
+
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    position: absolute;
+    right: 1rem;
+    bottom: 15rem;
+    left: 1rem;
+  }
+}
+
+.lead {
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 608px;
+  max-width: 38rem;
+  padding-left: 16px;
+  padding-left: 1rem;
+  padding-right: 16px;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video {
+  /*-o-object-fit: cover;*/
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
